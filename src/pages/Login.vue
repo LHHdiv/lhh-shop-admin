@@ -21,9 +21,6 @@
         </template>
       </el-input>
     </div>
-    <el-icon>
-      <Lock />
-    </el-icon>
     <div class="login-btn ipt">
       <el-button @click="login" style="width:500px" type="primary" :disabled="disabled">登录</el-button>
     </div>
@@ -36,8 +33,8 @@ export default {
   name: "Login",
   data() {
     return {
-      username: "",
-      password: ""
+      username: "LHH",
+      password: "123456"
     }
   },
   computed: {
